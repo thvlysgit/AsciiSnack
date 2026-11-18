@@ -1,10 +1,18 @@
 ## Présentation
 
-Ce que fait l'application, en quelques lignes.
+Application web du snack du BDE ASCII, qui permet de gérer l'inventaire des produits vendus.
+
+Les opérateurs peuvent ajouter, modifier et supprimer des produits et des catégories et suivre le stock disponible. Chaque produit a un prix classique et un prix adhérent. Les achats des clients sont enregistrés avec leurs lignes d'achat.
+
+La page d'accueil met en avant des produits sous forme de carrousel, et les opérateurs peuvent choisir lesquels y apparaissent.
 
 ## Stack technique
 
-Langage, framework, base de données et principales librairies.
+- Langage : JavaScript (frontend et backend)
+- Framework : Express.js
+- Frontend : HTML/CSS/JavaScript
+- Base de données : SQLite
+- Principales librairies :
 
 ## Prérequis
 
