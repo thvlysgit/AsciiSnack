@@ -26,19 +26,6 @@ La stack technique se limitera aux technologies suivantes :
 
 ## Les entités avec leurs champs principaux
 
-# Boissons
-- prix classique
-- prix adhérent
-- quantité en stock
-- (indice de popularité)
-
-# Nourritures
-- prix classique
-- prix adhérent
-- quantité en stock
-- (indice de popularité) 
-
-ouuu (à voir) :
 # Produits
 - id
 - nom
