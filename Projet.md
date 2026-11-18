@@ -26,46 +26,35 @@ La stack technique se limitera aux technologies suivantes :
 
 ## Les entités avec leurs champs principaux
 
-# Boissons
-- prix classique
-- prix adhérent
-- quantité en stock
-- (indice de popularité)
-
-# Nourritures
-- prix classique
-- prix adhérent
-- quantité en stock
-- (indice de popularité) 
-
-ouuu (à voir) :
 # Produits
 - id
 - nom
 - description
-- types (boisson ou nourriture)
+- idCategorie
 - prix_classique
 - prix_adherent
 - quantite_stock
-- indice_popularite
+- bool estFavori
+
+# Catégories
+- id
+- nom
 
 # Liste des Clients
-- id
 - id
 - nom
 - prénom
 - adhérent booléen
+- mail
 
-# Utilisateurs
-- id
+# Admins
 - identifiant
 - mdp
-- role (admin ou operateur)
 
 # Achats
-- id
-- ID client
-- montant de la transaction
+- idAchat
+- idClient
+- montant
 - date
 - statut (validé ou annulé)
 
@@ -88,39 +77,13 @@ Achats - Lignes Achats
 - Une ligne d'achat appartient à un seul achat
 
 # Relation N-N
-Achats - Produits
-- Un achat peut contenir plusieurs produits
-- Un produit peut apparaître dans plusieurs achats
--> Cette relation est réalisé grâce à Lignes Achats
 
-Clients - Achats
-- Un client peut effectuer plusieurs achats
-- Un achat appartient qu'à un seul client
-
-Achats - Lignes Achats
-- Un achat contient une ou plusieurs lignes d'achat
-- Une ligne d'achat appartient à un seul achat
-
-# Relation N-N
-Achats - Produits
-- Un achat peut contenir plusieurs produits
-- Un produit peut apparaître dans plusieurs achats
--> Cette relation est réalisé grâce à Lignes Achats
+Catégories - Produits
+- un produit peut appartenir à plusieurs catégories (ex sucré ET vegan)
+- une catégorie peut référencer plusieurs produits (il peut y avoir plusieurs produits sucrés)
 
 ## Les entités A et B, entièrement gérables (F1 à F10).
-# Entité A : Produits
-- F1 - Ajouter : ajouter un nouveau produit
-- F2 - Consulter : afficher la liste des produits
-- F3 - Détail produit : nom, type, prix classique, prix adhérent, stock disponible,...
-- F4 : Modifier : modifier les informations d'un produit déjà existant
-- F5 : Supprimer : supprimer un produit du catalogue
 
-# Entité B : Clients
-- F6 - Créer : ajouter un nouveau client avec son nom/prénom et son statut d'adhérent
-- F7 - Lire : afficher la liste des clients et consulter leurs informations
-- F8 - Page de détail : informations complètes et achats associés d'un client
-- F9 - Modifier : modifier les informations du client
-- F10 - Supprimer : supprimer un client
 # Entité A : Produits
 - F1 - Ajouter : ajouter un nouveau produit
 - F2 - Consulter : afficher la liste des produits
