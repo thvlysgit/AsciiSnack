@@ -91,12 +91,12 @@ Catégories - Produits
 - F4 : Modifier : modifier les informations d'un produit déjà existant
 - F5 : Supprimer : supprimer un produit du catalogue
 
-# Entité B : Clients
-- F6 - Créer : ajouter un nouveau client avec son nom/prénom et son statut d'adhérent
-- F7 - Lire : afficher la liste des clients et consulter leurs informations
-- F8 - Page de détail : informations complètes et achats associés d'un client
-- F9 - Modifier : modifier les informations du client
-- F10 - Supprimer : supprimer un client
+# Entité B : Catégories
+- F6 - Créer : ajouter une nouvelle catégorie
+- F7 - Lire : afficher la liste des catégories et les consulter
+- F8 - Page de détail : afficher la catégorie ainsi que tous les produits qu'elle contient
+- F9 - Modifier : modifier les informations de la catégorie (le nom)
+- F10 - Supprimer : supprimer la catégorie
 
 ## Le contenu du seed (D4) : quelles données seront présentes au lancement.
 - 10 clients (adhérents/non-adhérents)
