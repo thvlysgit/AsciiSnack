@@ -65,7 +65,6 @@ La stack technique se limitera aux technologies suivantes :
 - quantite
 - prix_unitaire
 
-
 ## Les relations : les 2 relations 1-N (ou plus) et la relation N-N.
 # Relations 1-N
 Clients - Achats
