@@ -27,7 +27,7 @@ La stack technique se limitera aux technologies suivantes :
 ## Les entités avec leurs champs principaux
 
 # Produits
-- id
+- id_produit
 - nom
 - description
 - prix_classique
@@ -36,15 +36,15 @@ La stack technique se limitera aux technologies suivantes :
 - bool estFavori
 
 # Produits_Categories
-- produit_id
-- categorie_id
+- id_produit
+- id_categorie
 
 # Catégories
-- id
+- id_categorie
 - nom
 
 # Liste des Clients
-- id
+- id_client
 - nom
 - prénom
 - adhérent booléen
@@ -55,8 +55,8 @@ La stack technique se limitera aux technologies suivantes :
 - mdp
 
 # Achats
-- idAchat
-- idClient
+- id_Achat
+- id_client
 - montant
 - date
 - statut (validé ou annulé)
@@ -67,7 +67,6 @@ La stack technique se limitera aux technologies suivantes :
 - produit_id
 - quantite
 - prix_unitaire
-
 
 ## Les relations : les 2 relations 1-N (ou plus) et la relation N-N.
 # Relations 1-N
@@ -80,17 +79,17 @@ Achats - Lignes Achats
 - Une ligne d'achat appartient à un seul achat
 
 # Relation N-N
-
 Catégories - Produits
 - un produit peut appartenir à plusieurs catégories (ex sucré ET vegan)
 - une catégorie peut référencer plusieurs produits (il peut y avoir plusieurs produits sucrés)
+-> grâce à la table intermédiaire Produits_Categories
 
 ## Les entités A et B, entièrement gérables (F1 à F10).
 
 # Entité A : Produits
 - F1 - Ajouter : ajouter un nouveau produit
 - F2 - Consulter : afficher la liste des produits
-- F3 - Détail produit : nom, type, prix classique, prix adhérent, stock disponible,...
+- F3 - Détail produit : nom, catégories, prix classique, prix adhérent, stock disponible,...
 - F4 : Modifier : modifier les informations d'un produit déjà existant
 - F5 : Supprimer : supprimer un produit du catalogue
 
@@ -102,9 +101,6 @@ Catégories - Produits
 - F10 - Supprimer : supprimer la catégorie
 
 ## Le contenu du seed (D4) : quelles données seront présentes au lancement.
-- 10 clients (adhérents/non-adhérents)
-- 5 nourritures (prix classique, prix adhérents, un stock)
-- 5 boissons    ( """ )
 - 10 clients (adhérents/non-adhérents)
 - 5 nourritures (prix classique, prix adhérents, un stock)
 - 5 boissons    ( """ )
