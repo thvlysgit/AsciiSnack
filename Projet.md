@@ -30,11 +30,14 @@ La stack technique se limitera aux technologies suivantes :
 - id
 - nom
 - description
-- idCategorie
 - prix_classique
 - prix_adherent
 - quantite_stock
 - bool estFavori
+
+# Produits_Categories
+- produit_id
+- categorie_id
 
 # Catégories
 - id
@@ -64,6 +67,7 @@ La stack technique se limitera aux technologies suivantes :
 - produit_id
 - quantite
 - prix_unitaire
+
 
 ## Les relations : les 2 relations 1-N (ou plus) et la relation N-N.
 # Relations 1-N
