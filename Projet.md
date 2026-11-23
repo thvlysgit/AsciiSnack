@@ -1,5 +1,5 @@
 ## Le pitch
-> Une super application qui permet de garder un inventaire du snack du BDE Ascii ainsi que notifier les opérateurs de celui-ci des demandes des élèves. 
+> Une super application qui permet de garder un inventaire du snack du BDE Ascii ainsi que notifier les opérateurs de celui-ci des demandes des élèves. L'application permet également une visualisation des statistiques d'achat et des performances du Snack.
 
 ## Les membres du groupe
 - Célia NUGEYRE
@@ -107,4 +107,4 @@ Catégories - Produits
 - 10 transactions factices 
 
 ## Ce qui est mis en avant sur la page d'accueil (F13 et F14).
-> Les 5 Boissons et Nourritures (carrousel) avec l'indice de popularité le plus élevé. (statique si pas d'indices de popularité)
+> Les 5 Boissons et Nourritures que l'administrateur peut mettre en avant de lui-même par un bouton favoris.
