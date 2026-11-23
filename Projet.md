@@ -1,5 +1,5 @@
 ## Le pitch
-> Une super application qui permet de garder un inventaire du snack du BDE Ascii ainsi que notifier les opérateurs de celui-ci des demandes des élèves. L'application permet également une visualisation des statistiques d'achat et des performances du Snack.
+> Une super application qui permet de garder un inventaire du snack du BDE Ascii ainsi que notifier les opérateurs de celui-ci des demandes des élèves. 
 
 ## Les membres du groupe
 - Célia NUGEYRE
