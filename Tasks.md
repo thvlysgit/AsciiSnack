@@ -6,10 +6,9 @@
 - initialiser le projet
 - écrire le seed
 - fonctionnalités :
-    - produits
-    - catégories
-    - clients
-    - achats
+    - produits (F1 à F5)
+    - catégories (F6 à F10) + relation N-N
+    - clients et achats
 - accueil du site
 - bouton favori
 
