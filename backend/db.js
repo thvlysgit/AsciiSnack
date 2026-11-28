@@ -49,9 +49,9 @@ db.exec(`
     prix_unitaire INTEGER NOT NULL CHECK (prix_unitaire >= 0)
   );
 
-  CREATE INDEX IF NOT EXISTS idx_achats_client ON achats(id_client);
-  CREATE INDEX IF NOT EXISTS idx_lignes_achat ON lignes_achats(achat_id);
-  CREATE INDEX IF NOT EXISTS idx_pc_categorie ON produits_categories(id_categorie);
+  CREATE INDEX IF NOT EXISTS idx_achats_client ON achats(id_client); -- achats d'un client
+  CREATE INDEX IF NOT EXISTS idx_lignes_achat ON lignes_achats(achat_id); -- produits contenus dans un achat
+  CREATE INDEX IF NOT EXISTS idx_pc_categorie ON produits_categories(id_categorie); -- produits d'une catégorie
 `);
 
 module.exports = db;
